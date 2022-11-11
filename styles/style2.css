@@ -1,0 +1,102 @@
+/* Step 2: Import the Reset */
+@import url(./reset.css);
+/* End of Reset */
+
+
+/* Step 3: Import the Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+/* End of Fonts */
+
+#neewid ul,ul>li{
+    outline: 1px dashed #ccc;
+}
+
+#neewid ul>li>a{
+    padding: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+#neewid {
+    width: 100%;
+    height: 49pt;
+    background-color: rgba(61, 58, 54, 0.329);
+}
+
+#neewid ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#neewid ul>li{
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#neewid ul>li>a:hover{
+ background-color: #ccc;
+ transition: 0.5s;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+html,body ,main,header{
+    scroll-behavior: smooth;
+}
+header
+{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+body
+{
+    background-image: url(../images/jonny-gios-A7Z6sPlrTWY-unsplash.jpg);
+    background-size:cover;
+    background-position: center;
+}
+body>main>header>div{
+    font-size: 45pt;
+    background-color: rgb(187, 143, 77);
+    text-align: center;
+    opacity: 0.91;
+    font-style: italic;
+}
+section{
+    outline:double #ccc;
+}
+section
+{
+    font-size: 13pt;
+    
+}
+#number1, #number3, #number5
+{
+    background-color: rgb(83, 77, 77);
+    opacity: 0.8;
+}
+#number2, #number4,#number6
+{
+    background-color: #ccc;
+    opacity: 0.8;
+}
+
+section>h2{
+    font-size: 19pt;
+    font-weight: bold;
+}
+#para>p>input
+{
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: darkolivegreen;
+    background-color: black;
+}

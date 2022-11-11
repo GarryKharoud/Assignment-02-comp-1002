@@ -1,0 +1,51 @@
+/* Step 2: Import the Reset */
+@import url(./reset.css);
+/* End of Reset */
+
+
+/* Step 3: Import the Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+/* End of Fonts */
+
+#thankspg ul ,#thankspg ul>li
+{
+    outline: 1px dashed #ccc;
+}
+#thankspg ul>li>a
+{
+    text-decoration: none;
+    color: black;
+    padding: 1.4em;
+}
+#thankspg {
+    background-color: rgba(61, 58, 54, 0.329);
+    width: 100%;
+
+}
+#thankspg ul{
+    display: flex;
+    justify-content: space-around;
+}
+#thankspg ul>li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+#thankspg ul>li>a:hover
+{
+    background-color: rgb(233, 221, 181);
+    transition: 1s;
+}
+h1,body>main>header>p{
+font-size: 29pt;
+font-weight: bold;
+font-style: oblique;
+color: rgb(29, 180, 36);
+align-items: center;
+text-align: center;
+}
+body{
+    background-image: url(../images/ewan-bullock-LdrjgB_1Qpc-unsplash.jpg);
+    background-size: cover;
+}

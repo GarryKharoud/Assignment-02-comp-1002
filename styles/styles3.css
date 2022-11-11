@@ -1,0 +1,109 @@
+/* Step 2: Import the Reset */
+@import url(./reset.css);
+/* End of Reset */
+
+
+/* Step 3: Import the Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+/* End of Fonts */
+
+#contctnav , #contctnav ul>li
+{
+    outline: 1px dashed rgb(0, 0, 0);
+}
+#contctnav ul>li>a
+{
+    text-decoration: none;
+    padding: 1.4em;
+    color: #ccc;
+}
+#contctnav
+{
+    background-color: rgba(61, 58, 54, 0.329);
+    width: 100%;
+}
+#contctnav ul
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-weight: bold;
+}
+#contctnav ul>li
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#contctnav ul>li>a:hover
+{
+    background-color: rgb(22, 27, 22);
+    transition: 1s;
+}
+#heading1
+{
+    text-align: center;
+    font-size: 29pt;
+    color: rgb(46, 27, 27);
+    font-weight: bold;
+}
+#flexy {
+    text-decoration: none;
+    color: rgb(55, 114, 165);
+}
+#awhite a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+#flexy{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.2em;
+    float: inline-end;
+    
+    
+}
+section{
+    outline: 2px solid rgb(2, 2, 2);
+    font-size: 22.4px;
+    background-color: rgb(8, 8, 8);
+    opacity: 0.88;
+    font-style:italic;
+    
+}
+#pics 
+{
+    display: flex;
+    width: 100%;
+    gap: 2em;
+    background-color: rgb(27, 24, 19);
+}
+section>h2{
+font-size: 26px;
+font-weight: bold;
+color: rgb(3, 52, 126);
+}
+
+body{
+    background-image: url(../images/karsten-winegeart-HbDy6Jkqm0M-unsplash.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#last>p>input
+{
+    text-decoration: none;
+    font-size: 16pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: darkolivegreen;
+    background-color: black;
+    
+}
+#last>p>input
+{
+    display: flex;
+    float: right;
+    text-align: center;
+}
